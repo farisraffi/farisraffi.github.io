@@ -1,0 +1,166 @@
+
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Personal portfolio of Faris Arrafi">
+    <title>Faris Arrafi | Portfolio</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header class="navbar">
+        <a href="#home" class="logo">FARIS<span>.</span></a>
+
+        <nav>
+            <a href="#home" data-id="home">Home</a>
+            <a href="#about" data-id="about">About</a>
+            <a href="#skills" data-id="skills">Skills</a>
+            <a href="#projects" data-id="projects">Projects</a>
+            <a href="#experience" data-id="experience">Experience</a>
+            <a href="#contact" data-id="contact">Contact</a>
+        </nav>
+
+        <div class="controls">
+            <button id="themeToggle" aria-label="Change theme">
+                ☾
+            </button>
+            <button id="languageToggle">ID / EN</button>
+        </div>
+    </header>
+
+    <main>
+        <section id="home" class="hero">
+            <div class="hero-text">
+                <p class="eyebrow" data-id="welcome">WELCOME TO MY PORTFOLIO</p>
+
+                <h1 data-id="greeting">
+                    Hello, I'm <span>Faris Arrafi.</span>
+                </h1>
+
+                <h2 data-id="profession">Student & Technology Enthusiast</h2>
+
+                <p class="description" data-id="intro">
+                    Exploring technology, learning to code,
+                    and building something meaningful.
+                </p>
+
+                <div class="hero-buttons">
+                    <a href="#projects" class="primary-btn" data-id="viewProjects">
+                        View Projects
+                    </a>
+                    <a href="#contact" class="secondary-btn" data-id="contactMe">
+                        Contact Me
+                    </a>
+                </div>
+
+                <p class="location">Based in Indonesia · Learning Every Day</p>
+            </div>
+
+            <!-- PROFILE IMAGE -->
+<div class="hero-image">
+    <img
+        src="gambar.jpeg"
+        alt="Foto Profil Faris Arrafi"
+    >
+</div>
+        </section>
+
+        <section id="about" class="section">
+            <p class="eyebrow">01 / ABOUT</p>
+            <h2 data-id="aboutTitle">About Me</h2>
+
+            <p data-id="aboutText">
+                Hello! I'm Faris Arrafi, a student interested in
+                computers and technology. I'm currently learning
+                JavaScript, computer fundamentals, communication,
+                GitHub, Virtual Machines, WebSocket and WebRTC.
+                I'm always curious and excited to learn new things.
+            </p>
+        </section>
+
+        <section id="skills" class="section">
+            <p class="eyebrow">02 / WHAT I'M LEARNING</p>
+            <h2 data-id="skillsTitle">Skills & Technologies</h2>
+
+            <div class="card-grid">
+                <div class="card">JavaScript</div>
+                <div class="card">HTML & CSS</div>
+                <div class="card">GitHub & Git</div>
+                <div class="card">Visual Studio Code</div>
+                <div class="card">Virtual Machine</div>
+                <div class="card">WebSocket</div>
+                <div class="card">WebRTC</div>
+                <div class="card">Computer Fundamentals</div>
+            </div>
+        </section>
+
+        <section id="projects" class="section">
+            <p class="eyebrow">03 / MY WORK</p>
+            <h2 data-id="projectsTitle">Selected Projects</h2>
+
+            <div class="card-grid">
+                <div class="project-card">
+                    <span>01</span>
+                    <h3>Personal Portfolio</h3>
+                    <p>A personal website to showcase my learning journey.</p>
+                    <small>HTML · CSS · JavaScript</small>
+                </div>
+
+                <div class="project-card">
+                    <span>02</span>
+                    <h3>Learning JavaScript</h3>
+                    <p>Small experiments and programming exercises.</p>
+                    <small>JavaScript</small>
+                </div>
+
+                <div class="project-card">
+                    <span>03</span>
+                    <h3>Technology Exploration</h3>
+                    <p>Exploring computer systems and communication technology.</p>
+                    <small>WebSocket · WebRTC · VM</small>
+                </div>
+            </div>
+        </section>
+
+        <section id="experience" class="section">
+            <p class="eyebrow">04 / MY JOURNEY</p>
+            <h2 data-id="experienceTitle">Learning Journey</h2>
+
+            <div class="timeline">
+                <div class="timeline-item">
+                    <span>Present</span>
+                    <h3>Technology Learning</h3>
+                    <p>Learning programming, computers, and modern technologies.</p>
+                </div>
+
+                <div class="timeline-item">
+                    <span>Ongoing</span>
+                    <h3>Exploring Development</h3>
+                    <p>Practicing JavaScript, GitHub, and web development.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="section">
+            <p class="eyebrow">05 / GET IN TOUCH</p>
+            <h2 data-id="contactTitle">Let's Connect</h2>
+            <p data-id="contactText">
+                Feel free to connect with me and follow my learning journey.
+            </p>
+
+            <a href="https://github.com/" target="_blank" class="primary-btn">
+                GitHub Profile ↗
+            </a>
+        </section>
+    </main>
+
+    <footer>
+        <p>© 2026 Faris Arrafi. Built with curiosity.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
